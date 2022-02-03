@@ -30,8 +30,8 @@ Route::get('/index', function () {
 
 }) ->name('index');
 
-Route::get('/Hobis', function () {
-    return view ('blog.Hobis');
+Route::get('/hobis', function () {
+    return view ('blog.hobis');
     //echo ("hola mundo");
   
   }) ->name('Hobis');
